@@ -1,0 +1,136 @@
+/* Reset default margin and padding on elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+    background-color: #FCF5ED; /* Changed to the desired background color */
+    font-family: Garamond, Arial, sans-serif; /* Consolidated font-family */
+}
+
+/* Style the left column */
+#leftColoum {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-link, .nav-item a {
+    color: #fff !important;
+}
+
+/* Style headings */
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+/* Style buttons */
+button {
+    box-shadow: 0 0 5px #F9F3CC, 0 0 25px #F9F3CC;
+}
+
+button:hover {
+    box-shadow: 0 0 5px #F9F3CC, 0 0 25px #F9F3CC,
+        0 0 50px #F9F3CC, 0 0 100px, 0 0 200px #F9F3CC;
+}
+
+/* Style the section */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Style the article */
+article {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Style the Objectives section */
+#Objectives {
+    margin-top: 20px;
+}
+
+/* Style ordered lists */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Style the table to make it responsive */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+table th {
+    background-color: #adadad;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+}
+
+table th h2 {
+    margin-bottom: 10px;
+}
+
+table td {
+    padding: 10px;
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the headings within table data */
+table h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Add spacing for paragraphs within table data */
+table p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* Media query to adjust the table for smaller screens */
+@media (max-width: 768px) {
+    table {
+        margin: 10px;
+    }
+
+    table th {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    table td {
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    table img {
+        max-width: 100%;
+    }
+
+    table p {
+        font-size: 14px;
+    }
+}
